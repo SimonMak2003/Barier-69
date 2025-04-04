@@ -12,4 +12,9 @@
   font-family: "Inset";
   src: url("../fonts/Inter-Regular.ttf");
   font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }/*# sourceMappingURL=main.css.map */
