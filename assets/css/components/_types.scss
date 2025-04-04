@@ -1,0 +1,29 @@
+.types {
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__desc {
+        background-color: #fafafa;
+        padding: 20px 0 20px 24px;
+        max-width: 570px;
+        font-size: 20px;
+        line-height: 130%;
+        color: #6e6e6e;
+        position: relative;
+
+
+        &::after {
+            content: '';
+            width: calc((100vw - 1200px) / 2);
+            height: 100%;
+            background-color: #fafafa;
+            position: absolute;
+            right: 0;
+            top: 0;
+            transform: translateX(100%);
+        }
+    }
+}

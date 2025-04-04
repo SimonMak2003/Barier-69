@@ -34,7 +34,7 @@ button {
 }
 
 .container {
-  max-width: 1160px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -49,4 +49,28 @@ input::-webkit-inner-spin-button {
 
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+.types__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.types__desc {
+  background-color: #fafafa;
+  padding: 20px 0 20px 24px;
+  max-width: 570px;
+  font-size: 20px;
+  line-height: 130%;
+  color: #6e6e6e;
+  position: relative;
+}
+.types__desc::after {
+  content: "";
+  width: calc((100vw - 1200px) / 2);
+  height: 100%;
+  background-color: #fafafa;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
 }/*# sourceMappingURL=main.css.map */
