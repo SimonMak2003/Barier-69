@@ -1,16 +1,16 @@
 @font-face {
-  font-family: "Inset";
-  src: url("../fonts/Inter-Bold.otf");
+  font-family: "Inter";
+  src: url("/assets/fonts/Inter-Bold.otf");
   font-weight: 700;
 }
 @font-face {
-  font-family: "Inset";
-  src: url("../fonts/Inter-Medium.ttf");
+  font-family: "Inter";
+  src: url("/assets/fonts/Inter-Medium.otf");
   font-weight: 500;
 }
 @font-face {
-  font-family: "Inset";
-  src: url("../fonts/Inter-Regular.ttf");
+  font-family: "Inter";
+  src: url("/assets/fonts/Inter-Regular.otf");
   font-weight: 400;
 }
 * {
@@ -25,12 +25,12 @@ ul {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
 }
 
 button {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
