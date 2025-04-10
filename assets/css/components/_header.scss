@@ -1,0 +1,49 @@
+.header {
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 32px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 15px;
+    }
+
+    &__link {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #fff;
+        transition: 0.3s;
+
+        &.current {
+            padding-bottom: 12px;
+            border-bottom: 2px solid #f0c631;
+        }
+
+        &:hover {
+            padding-bottom: 12px;
+            border-bottom: 2px solid #f0c631;
+            opacity: 0.5;
+        }
+
+        &::before {
+            padding-bottom: 12px;
+            border-bottom: 2px solid #f0c631;
+            opacity: 0.3;
+        }
+    }
+
+    &__numb {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+}

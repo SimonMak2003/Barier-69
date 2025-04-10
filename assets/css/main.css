@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Inter";
   src: url("/assets/fonts/Inter-Bold.otf");
-  font-weight: 700;
+  font-weight: 600;
 }
 @font-face {
   font-family: "Inter";
@@ -51,6 +51,10 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+.background {
+  background-image: url("../images/Cover.png");
+}
+
 .types__wrapper {
   display: flex;
   justify-content: space-between;
@@ -73,4 +77,45 @@ input[type=number] {
   right: 0;
   top: 0;
   transform: translateX(100%);
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+}
+.header__list {
+  display: flex;
+  gap: 15px;
+}
+.header__link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+  transition: 0.3s;
+}
+.header__link.current {
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f0c631;
+}
+.header__link:hover {
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f0c631;
+  opacity: 0.5;
+}
+.header__link::before {
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f0c631;
+  opacity: 0.3;
+}
+.header__numb {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
