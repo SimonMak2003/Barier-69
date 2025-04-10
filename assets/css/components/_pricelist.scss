@@ -1,0 +1,35 @@
+.pricelist {
+
+    margin-top: 202px;
+
+    &__title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        color: #000;
+        margin-top: 40px;
+    }
+
+    &__list {
+        display: grid;
+        margin-top: 62px;
+    }
+
+    &__item {
+        display: flex;
+        gap: 533px;
+        padding: 42px 0 33px 20px;
+
+        &--grey {
+            background: #f9f9f9;
+        }
+    }
+}

@@ -240,4 +240,34 @@ input[type=number] {
   line-height: 120%;
   color: #000;
   text-align: left;
+}
+
+.pricelist {
+  margin-top: 202px;
+}
+.pricelist__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #000;
+}
+.pricelist__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000;
+  margin-top: 40px;
+}
+.pricelist__list {
+  display: grid;
+  margin-top: 62px;
+}
+.pricelist__item {
+  display: flex;
+  gap: 533px;
+  padding: 42px 0 33px 20px;
+}
+.pricelist__item--grey {
+  background: #f9f9f9;
 }/*# sourceMappingURL=main.css.map */
