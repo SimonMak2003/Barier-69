@@ -37,5 +37,20 @@ input[type='number'] {
 }
 
 .background {
-    background-image: url('../images/Cover.png')
+    background-image: url('../images/Cover.png');
+    height: 900px;
+    width: 100%;
+}
+
+.btn {
+    padding: 19px;
+    width: 283px;
+    height: 57px;
+    background: #f0c631;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
 }
