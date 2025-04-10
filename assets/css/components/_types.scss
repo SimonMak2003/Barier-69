@@ -26,4 +26,53 @@
             transform: translateX(100%);
         }
     }
+
+    &__list {
+        display: flex;
+        gap: 15px;
+        order: -10;
+    }
+
+    &__item {
+        margin-top: 100px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 110%;
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    &__text {
+        margin-top: 40px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        color: #6e6e6e;
+    }
+
+    &__item-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    &__item-text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        color: #6e6e6e;
+        margin-top: 40px;
+    }
+
+    &__item-pic {
+        width: 570px;
+        height: 560px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        margin-top: 40px;
+    }
 }
