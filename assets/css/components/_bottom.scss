@@ -1,0 +1,38 @@
+.bottom {
+
+    &__wrapper {
+        background: #000;
+        width: 100%;
+        height: 376px;
+        padding-top: 100px;
+    }
+
+    &__border {
+        border-bottom: 1px solid #6e6e6e;
+        display: flex;
+        gap: 454px;
+        padding-bottom: 50px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 246px;
+    }
+
+    &__items-text {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 120%;
+        color: #fff;
+    }
+
+    &__copyright {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #6e6e6e;
+    }
+
+}

@@ -270,4 +270,64 @@ input[type=number] {
 }
 .pricelist__item--grey {
   background: #f9f9f9;
+}
+
+.call__wrapper {
+  background: #f0c631;
+  display: flex;
+  justify-content: space-between;
+  padding: 43px 200px;
+  width: 100%;
+  height: 130px;
+  margin-top: 64px;
+}
+.call__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #000;
+}
+.call__phone {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #000;
+}
+.call__info {
+  display: flex;
+  justify-content: space-between;
+  gap: 491px;
+}
+
+.bottom__wrapper {
+  background: #000;
+  width: 100%;
+  height: 376px;
+  padding-top: 100px;
+}
+.bottom__border {
+  border-bottom: 1px solid #6e6e6e;
+  display: flex;
+  gap: 454px;
+  padding-bottom: 50px;
+}
+.bottom__list {
+  display: flex;
+  gap: 246px;
+}
+.bottom__items-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #fff;
+}
+.bottom__copyright {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #6e6e6e;
 }/*# sourceMappingURL=main.css.map */
