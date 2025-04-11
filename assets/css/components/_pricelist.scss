@@ -16,6 +16,10 @@
         line-height: 130%;
         color: #000;
         margin-top: 40px;
+
+        span {
+            color: grey;
+        }
     }
 
     &__list {
@@ -23,13 +27,17 @@
         margin-top: 62px;
     }
 
+    &__cost {
+        color: grey;
+    }
+
     &__item {
-        display: flex;
-        gap: 533px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         padding: 42px 0 33px 20px;
 
-        &--grey {
-            background: #f9f9f9;
+        &:nth-child(odd) {
+          background-color: #f9f9f9;  
         }
     }
 }

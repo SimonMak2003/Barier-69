@@ -2,18 +2,26 @@
 
     &__title {
         font-weight: 600;
-        font-size: 80px;
+        font-size: clamp(2rem, 0.9091rem + 5.4545vw, 5rem);
         line-height: 100%;
         color: #fff;
         margin-bottom: 24px;
+
+        @media (width < 1024px) {
+            margin-bottom: 30px;
+        }
     }
 
     &__text {
         font-weight: 500;
-        font-size: 20px;
+        font-size: clamp(1.125rem, 1.0795rem + 0.2273vw, 1.25rem);
         line-height: 130%;
         color: #fff;
         margin-bottom: 60px;
+
+        @media (width < 1024px) {
+            margin-bottom: 28px;
+        }
     }
 
 }

@@ -1,16 +1,12 @@
 .bottom {
-
-    &__wrapper {
-        background: #000;
+    background: #000;
         width: 100%;
-        height: 376px;
         padding-top: 100px;
-    }
 
     &__border {
         border-bottom: 1px solid #6e6e6e;
         display: flex;
-        gap: 454px;
+        justify-content: space-between;
         padding-bottom: 50px;
     }
 
@@ -33,6 +29,8 @@
         letter-spacing: 0.05em;
         text-transform: uppercase;
         color: #6e6e6e;
+
+    
     }
 
 }

@@ -1,26 +1,28 @@
 .call {
+    background: #f0c631;
+    padding: 43px 0;
+    margin-top: 64px;
 
-    &__wrapper {
-        background: #f0c631;
-        display: flex;
-        justify-content: space-between;
-        padding: 43px 200px;
-        width: 100%;
-        height: 130px;
-        margin-top: 64px;
+    @media (width < 1024px) {
+        padding: 20px 0;
+        margin-top: 30px;
     }
 
     &__title {
         font-weight: 700;
-        font-size: 40px;
+        font-size: clamp(1.5rem, 1.1364rem + 1.8182vw, 2.5rem);
         line-height: 110%;
         text-transform: uppercase;
         color: #000;
+
+        @media (width < 1024px) {
+            margin-bottom: 12px;
+        }
     }
 
     &__phone {
         font-weight: 700;
-        font-size: 40px;
+        font-size: clamp(1.5rem, 1.1364rem + 1.8182vw, 2.5rem);
         line-height: 110%;
         text-transform: uppercase;
         color: #000;
@@ -29,7 +31,11 @@
     &__info {
         display: flex;
         justify-content: space-between;
-        gap: 491px;
-    }
 
+        @media (width < 1024px) {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
 }
