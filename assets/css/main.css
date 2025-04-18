@@ -81,6 +81,11 @@ input[type=number] {
   display: flex;
   justify-content: space-between;
 }
+@media (width < 1024px) {
+  .types__wrapper {
+    flex-direction: column;
+  }
+}
 .types__desc {
   background-color: #fafafa;
   padding: 20px 0 20px 24px;
@@ -100,6 +105,17 @@ input[type=number] {
   top: 0;
   transform: translateX(100%);
 }
+@media (width < 1024px) {
+  .types__desc::after {
+    margin-top: 25px;
+    width: calc((100vw - 1200px) / 2);
+    height: 100%;
+    background-color: #fafafa;
+    right: 0;
+    top: 0;
+    transform: translateX(100%);
+  }
+}
 .types__list {
   display: flex;
   gap: 60px;
@@ -115,6 +131,18 @@ input[type=number] {
   left: -45px;
   top: 43px;
 }
+@media (width < 1024px) {
+  .types__list::before {
+    display: none;
+  }
+}
+@media (width < 1024px) {
+  .types__list {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
 .types__item {
   margin-top: 100px;
   display: flex;
@@ -124,6 +152,13 @@ input[type=number] {
   order: -1;
   margin-bottom: 40px;
   margin-top: 0;
+}
+@media (width < 1024px) {
+  .types__item:nth-child(odd) .types__item-pic {
+    order: 0;
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
 }
 .types__title {
   font-weight: 600;
@@ -269,6 +304,12 @@ input[type=number] {
 .about__cards {
   display: flex;
 }
+@media (width < 1024px) {
+  .about__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .cards {
   margin-bottom: 200px;
@@ -331,6 +372,11 @@ input[type=number] {
 .pricelist__item:nth-child(odd) {
   background-color: #f9f9f9;
 }
+@media (width < 1024px) {
+  .pricelist__item {
+    padding: 21px 0 16px 10px;
+  }
+}
 
 .call {
   background: #f0c631;
@@ -385,9 +431,21 @@ input[type=number] {
   justify-content: space-between;
   padding-bottom: 50px;
 }
+@media (width < 1024px) {
+  .bottom__border {
+    flex-direction: column;
+  }
+}
 .bottom__list {
   display: flex;
   gap: 246px;
+}
+@media (width < 1024px) {
+  .bottom__list {
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 25px;
+  }
 }
 .bottom__items-text {
   font-weight: 600;
@@ -402,4 +460,26 @@ input[type=number] {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #6e6e6e;
+}
+@media (width < 1024px) {
+  .bottom__logo {
+    margin-top: 40px;
+  }
+}
+.bottom__call {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.bottom__items-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #6e6e6e;
+}
+.bottom__copyright {
+  padding-block: 25px;
 }/*# sourceMappingURL=main.css.map */

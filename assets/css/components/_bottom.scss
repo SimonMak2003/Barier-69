@@ -1,18 +1,28 @@
 .bottom {
     background: #000;
-        width: 100%;
-        padding-top: 100px;
+    width: 100%;
+    padding-top: 100px;
 
     &__border {
         border-bottom: 1px solid #6e6e6e;
         display: flex;
         justify-content: space-between;
         padding-bottom: 50px;
+
+        @media (width<1024px) {
+            flex-direction: column;
+        }
     }
 
     &__list {
         display: flex;
         gap: 246px;
+
+        @media (width<1024px) {
+            margin-top: 40px;
+            flex-direction: column;
+            gap: 25px;
+        }
     }
 
     &__items-text {
@@ -30,7 +40,32 @@
         text-transform: uppercase;
         color: #6e6e6e;
 
-    
     }
+
+    &__logo {
+
+        @media (width<1024px) {
+            margin-top: 40px;
+        }
+    }
+
+    &__call {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    &__items-text {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 120%;
+        color: #6e6e6e;
+    }
+
+    &__copyright {
+        padding-block: 25px;    }
 
 }

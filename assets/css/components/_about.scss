@@ -20,6 +20,11 @@
 
     &__cards {
         display: flex;
+
+        @media (width < 1024px) {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
 }
